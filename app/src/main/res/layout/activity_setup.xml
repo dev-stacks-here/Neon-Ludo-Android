@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="20dp">
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="PLAYER SETUP" android:textColor="#FFFFFF" android:textSize="28sp" android:textStyle="bold" android:layout_marginBottom="20dp"/>
+
+        <!-- Player 1 -->
+        <LinearLayout android:id="@+id/layoutP1" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+            <EditText android:id="@+id/etNameP1" android:layout_width="match_parent" android:layout_height="50dp" android:hint="Player 1 Name" android:textColorHint="#888888" android:textColor="#FFFFFF" android:background="#222222" android:padding="10dp" />
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center" android:layout_marginBottom="15dp" android:layout_marginTop="5dp">
+                <androidx.appcompat.widget.AppCompatButton android:id="@+id/p1_cGreen" android:layout_width="50dp" android:layout_height="50dp" android:background="#85FF9D" android:text="✓" android:textColor="#000000" android:layout_margin="5dp"/>
+                <androidx.appcompat.widget.AppCompatButton android:id="@+id/p1_cRed" android:layout_width="50dp" android:layout_height="50dp" android:background="#FF6B6B" android:textColor="#000000" android:layout_margin="5dp"/>
+                <androidx.appcompat.widget.AppCompatButton android:id="@+id/p1_cYellow" android:layout_width="50dp" android:layout_height="50dp" android:background="#F9F871" android:textColor="#000000" android:layout_margin="5dp"/>
+                <androidx.appcompat.widget.AppCompatButton android:id="@+id/p1_cBlue" android:layout_width="50dp" android:layout_height="50dp" android:background="#82C3FF" android:textColor="#000000" android:layout_margin="5dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Player 2 -->
+        <LinearLayout android:id="@+id/layoutP2" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+            <EditText android:id="@+id/etNameP2" android:layout_width="match_parent" android:layout_height="50dp" android:hint="Player 2 Name" android:textColorHint="#888888" android:textColor="#FFFFFF" android:background="#222222" android:padding="10dp" />
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center" android:layout_marginBottom="15dp" android:layout_marginTop="5dp">
+                <androidx.appcompat.widget.AppCompatButton android:id="@+id/p2_cGreen" android:layout_width="50dp" android:layout_height="50dp" android:background="#85FF9D" android:textColor="#000000" android:layout_margin="5dp"/>
+                <androidx.appcompat.widget.AppCompatButton android:id="@+id/p2_cRed" android:layout_width="50dp" android:layout_height="50dp" android:background="#FF6B6B" android:text="✓" android:textColor="#000000" android:layout_margin="5dp"/>
+                <androidx.appcompat.widget.AppCompatButton android:id="@+id/p2_cYellow" android:layout_width="50dp" android:layout_height="50dp" android:background="#F9F871" android:textColor="#000000" android:layout_margin="5dp"/>
+                <androidx.appcompat.widget.AppCompatButton android:id="@+id/p2_cBlue" android:layout_width="50dp" android:layout_height="50dp" android:background="#82C3FF" android:textColor="#000000" android:layout_margin="5dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Player 3 -->
+        <LinearLayout android:id="@+id/layoutP3" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+            <EditText android:id="@+id/etNameP3" android:layout_width="match_parent" android:layout_height="50dp" android:hint="Player 3 Name" android:textColorHint="#888888" android:textColor="#FFFFFF" android:background="#222222" android:padding="10dp" />
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center" android:layout_marginBottom="15dp" android:layout_marginTop="5dp">
+                <androidx.appcompat.widget.AppCompatButton android:id="@+id/p3_cGreen" android:layout_width="50dp" android:layout_height="50dp" android:background="#85FF9D" android:textColor="#000000" android:layout_margin="5dp"/>
+                <androidx.appcompat.widget.AppCompatButton android:id="@+id/p3_cRed" android:layout_width="50dp" android:layout_height="50dp" android:background="#FF6B6B" android:textColor="#000000" android:layout_margin="5dp"/>
+                <androidx.appcompat.widget.AppCompatButton android:id="@+id/p3_cYellow" android:layout_width="50dp" android:layout_height="50dp" android:background="#F9F871" android:text="✓" android:textColor="#000000" android:layout_margin="5dp"/>
+                <androidx.appcompat.widget.AppCompatButton android:id="@+id/p3_cBlue" android:layout_width="50dp" android:layout_height="50dp" android:background="#82C3FF" android:textColor="#000000" android:layout_margin="5dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Player 4 -->
+        <LinearLayout android:id="@+id/layoutP4" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+            <EditText android:id="@+id/etNameP4" android:layout_width="match_parent" android:layout_height="50dp" android:hint="Player 4 Name" android:textColorHint="#888888" android:textColor="#FFFFFF" android:background="#222222" android:padding="10dp" />
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center" android:layout_marginBottom="20dp" android:layout_marginTop="5dp">
+                <androidx.appcompat.widget.AppCompatButton android:id="@+id/p4_cGreen" android:layout_width="50dp" android:layout_height="50dp" android:background="#85FF9D" android:textColor="#000000" android:layout_margin="5dp"/>
+                <androidx.appcompat.widget.AppCompatButton android:id="@+id/p4_cRed" android:layout_width="50dp" android:layout_height="50dp" android:background="#FF6B6B" android:textColor="#000000" android:layout_margin="5dp"/>
+                <androidx.appcompat.widget.AppCompatButton android:id="@+id/p4_cYellow" android:layout_width="50dp" android:layout_height="50dp" android:background="#F9F871" android:textColor="#000000" android:layout_margin="5dp"/>
+                <androidx.appcompat.widget.AppCompatButton android:id="@+id/p4_cBlue" android:layout_width="50dp" android:layout_height="50dp" android:background="#82C3FF" android:text="✓" android:textColor="#000000" android:layout_margin="5dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton android:id="@+id/btnStartFromSetup" android:layout_width="200dp" android:layout_height="60dp" android:text="PLAY NOW" android:textColor="#000000" android:textStyle="bold" android:background="#FFFFFF"/>
+    </LinearLayout>
+</ScrollView>

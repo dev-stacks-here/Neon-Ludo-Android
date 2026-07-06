@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#000000"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEON LUDO"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton android:id="@+id/btnPlayer2" android:layout_width="250dp" android:layout_height="60dp" android:text="2 Player Mode" android:textColor="#FFFFFF" android:textSize="20sp" android:background="#85FF9D" android:layout_marginBottom="15dp"/>
+    <androidx.appcompat.widget.AppCompatButton android:id="@+id/btnPlayer3" android:layout_width="250dp" android:layout_height="60dp" android:text="3 Player Mode" android:textColor="#FFFFFF" android:textSize="20sp" android:background="#FF6B6B" android:layout_marginBottom="15dp"/>
+    <androidx.appcompat.widget.AppCompatButton android:id="@+id/btnPlayer4" android:layout_width="250dp" android:layout_height="60dp" android:text="4 Player Mode" android:textColor="#FFFFFF" android:textSize="20sp" android:background="#82C3FF" android:layout_marginBottom="30dp"/>
+
+    <View android:layout_width="match_parent" android:layout_height="2dp" android:background="#333333" android:layout_marginBottom="10dp"/>
+    
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SAVED GAMES" android:textColor="#AAAAAA" android:textSize="18sp" android:textStyle="bold" android:layout_marginBottom="10dp"/>
+
+    <!-- This ScrollView will hold all your dynamically created Saved Games! -->
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:id="@+id/savedGamesContainer" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:gravity="center" />
+    </ScrollView>
+</LinearLayout>
